@@ -1,0 +1,32 @@
+module.exports = {
+    validation: {
+        emailBase: ""
+    },
+    discord: {
+        token: "Token",
+        guild: "Snowflake",
+        guildName: "Private Discord",
+        channels: {
+            onboardingChannel: "Snowflake",
+            botChannel: "Snowflake",
+        },
+        employeeRoleName: "Employee",
+        guestRoleName: "Guests",
+        embed: {
+            colour: "#DC143C",
+            footer: "Powered by Cordelia",
+            footerImg: ""
+        }
+    },
+    oauth: {
+        client:"74497868818-6lohfgpg088hd0f0ck293ta6sse5nocg.apps.googleusercontent.com",
+        secret: "GiiJw4lBuE2FQdAC79_9BXNs",
+        callback: "https://contoso.com/auth/google/callback"
+    },
+    express: {
+        port: 8080,
+        host: "0.0.0.0",
+        external_URL: "https://contoso.com",
+        domain: "contoso"
+    }
+}
