@@ -19,8 +19,8 @@ module.exports = {
         }
     },
     oauth: {
-        client:"74497868818-6lohfgpg088hd0f0ck293ta6sse5nocg.apps.googleusercontent.com",
-        secret: "GiiJw4lBuE2FQdAC79_9BXNs",
+        client:"Client ID",
+        secret: "Secret",
         callback: "https://contoso.com/auth/google/callback"
     },
     express: {
