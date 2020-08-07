@@ -2,11 +2,12 @@
 
 Cordelia is a Discord bot that allows authenticating Discord users using Google's OAuth 2.0 provider.
 
+### Disclaimer
+This is not an officially supported Google product. As such, it may not recieve updates, fixes, or support.
+
 # Configuring Cordelia
 
 Cordelia uses a simple JavaScript file that exports the needed values. You copy the provided sample file `config.js.example` to `config.js` and modify as needed:
-
-
 
 # Running Cordelia
 
