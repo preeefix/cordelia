@@ -24,7 +24,7 @@ function firstWelcome(member) {
         .setTitle('Welcome Agent!')
         .setDescription(`Welcome to the ${config.discord.guildName} Discord! Because this is a semi-private Discord. I'm going to need you to provide some information.\n
             If you are a ${config.discord.employeeRoleName}, please click this link and sign in with you @${config.validation.emailBase} account: ${config.express.external_URL}/auth/google. \n
-            If you're a guest of a ${config.discord.employeeRoleName}, please have the member run '!guest ${member.user.id} in the designated guest chat!`);
+            If you're a guest of a ${config.discord.employeeRoleName}, please have the member run '!guest ${member.id} in the designated guest chat!`);
 };
 
 function memberAuthenticated(member) {

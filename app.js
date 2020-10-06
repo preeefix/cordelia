@@ -157,7 +157,7 @@ client.on('message', async (msg) => {
         
         // Validation Kickoff
         if (msg.content.startsWith("!validate")) {
-            return msg.reply(cannedResponses.firstWelcome)
+            return msg.reply(cannedResponses.firstWelcome(msg.author))
         }
     }
 
@@ -228,7 +228,7 @@ client.on('messageReactionAdd', async (reaction, user) => {
 
 // New Member Prompt
 client.on('guildMemberAdd', member => {
-    member.send(cannedResponses.firstWelcome(member));
+    member.send(cannedResponses.firstWelcome(member.user));
 });
 
 // **********
