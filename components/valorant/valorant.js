@@ -185,6 +185,16 @@ async function messageHandler (message, args) {
     console.log("API Raw: ". apiResponse);
     console.log(`Valorant API Request: ${apiResponse.name}#${apiResponse.tag}`)
 
+    // Because n00bs break things
+    
+    if (apiResponse.ranks == null) {
+        apiResponse.ranks = {
+            seeding: { tier: 0 },
+            unrated: { tier: 0 },
+            competitive: { tier: 0 }
+        }
+    }
+
     // Build the Embed
     var valorantEmbed = {
         title: `Valorant - ${apiResponse.name}#${apiResponse.tag}`,
