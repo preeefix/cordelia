@@ -150,5 +150,11 @@ module.exports = {
         title: "Unrated",
         tier: "unrated",
         rank: null
+    },
+    99: {
+        key: "error",
+        title: "Error",
+        tier: "error",
+        rank: null
     }
 }

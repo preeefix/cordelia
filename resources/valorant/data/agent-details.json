@@ -1,0 +1,640 @@
+{
+  "breach": {
+    "key": "breach",
+    "name": "Breach",
+    "Class": "Initiator",
+    "images": {
+      "bg": "breach/breach-blurred-bg.jpg",
+      "cutout": "breach/breach-cutout2-compressed.png",
+      "headshot": "breach/breach-concept-headshot.png",
+      "matchtile": "matchtile/breach-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "aftershock",
+        "name": "Aftershock",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.",
+        "video": "breach/abilities/Breach_C.mp4",
+        "cost": 100,
+        "keybind": "C"
+      },
+      {
+        "key": "flashpoint",
+        "name": "Flashpoint",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a blind charge. FIRE the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it.",
+        "video": "breach/abilities/Breach_Q.mp4",
+        "cost": 200,
+        "keybind": "Q"
+      },
+      {
+        "key": "faultline",
+        "name": "Fault Line",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone.",
+        "video": "breach/abilities/Breach_E.mp4",
+        "cost": "Free. 35s cooldown",
+        "keybind": "E"
+      },
+      {
+        "key": "rollingthunder",
+        "name": "Rolling Thunder",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a Seismic Charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+        "video": "breach/abilities/Breach_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "brimstone": {
+    "key": "brimstone",
+    "name": "Brimstone",
+    "Class": "Controller",
+    "images": {
+      "bg": "brimstone/brimstone-blurred-bg.jpg",
+      "cutout": "brimstone/brimstone-cutout2-compressed.png",
+      "headshot": "brimstone/brimstone-concept-headshot.png",
+      "matchtile": "matchtile/brimstone-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "stimbeacon",
+        "name": "Stim Beacon",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.",
+        "video": "brimstone/abilities/Brimstone_C.mp4",
+        "cost": 100,
+        "keybind": "C"
+      },
+      {
+        "key": "incendiary",
+        "name": "Incendiary",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.",
+        "video": "brimstone/abilities/Brimstone_Q.mp4",
+        "cost": 300,
+        "keybind": "Q"
+      },
+      {
+        "key": "skysmoke",
+        "name": "Sky Smoke",
+        "type": "Ability",
+        "charges": "3 per round",
+        "chargesCount": 3,
+        "description": "EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.",
+        "video": "brimstone/abilities/Brimstone_E.mp4",
+        "cost": "1 per round, 100 for extra charges",
+        "keybind": "E"
+      },
+      {
+        "key": "orbitalstrike",
+        "name": "Orbital Strike",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a tactical map. FIRE to launch a lingering orbital strike laster at the selected location, dealing high damage-over-time to players caught in the selected area.",
+        "video": "brimstone/abilities/Brimstone_X.mp4",
+        "cost": 6,
+        "keybind": "X"
+      }
+    ]
+  },
+  "cypher": {
+    "key": "cypher",
+    "name": "Cypher",
+    "Class": "Sentinel",
+    "images": {
+      "bg": "cypher/cypher-blurred-bg.jpg",
+      "cutout": "cypher/cypher-cutout-compressed.png",
+      "headshot": "cypher/cypher-concept-headshot.png",
+      "matchtile": "matchtile/cypher-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "trapwire",
+        "name": "Trapwire",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a trapwire. FIRE to place a desctuctible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.",
+        "video": "cypher/abilities/Cypher_C.mp4",
+        "cost": 200,
+        "keybind": "C"
+      },
+      {
+        "key": "cybercage",
+        "name": "Cyber Cage",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a cyber cage. FIRE to toss the cyber cage in front of Cypher. ACTIVATE to create a zone that blocks vision and slows enemies who pass through it.",
+        "video": "cypher/abilities/Cypher_Q.mp4",
+        "cost": 100,
+        "keybind": "Q"
+      },
+      {
+        "key": "spycam",
+        "name": "Spycam",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.",
+        "video": "cypher/abilities/Cypher_E.mp4",
+        "cost": "Placeable once per round. Can be picked up and re-placed.",
+        "keybind": "E"
+      },
+      {
+        "key": "neuraltheft",
+        "name": "Neural Theft",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.",
+        "video": "cypher/abilities/Cypher_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "jett": {
+    "key": "jett",
+    "name": "Jett",
+    "Class": "Duelist",
+    "images": {
+      "bg": "jett/jett-blurred-bg2.jpg",
+      "cutout": "jett/jett-cutout3-compressed.png",
+      "headshot": "jett/jett-concept-headshot.png",
+      "matchtile": "matchtile/jett-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "cloudburst",
+        "name": "Cloudburst",
+        "type": "Ability",
+        "charges": "3 per round",
+        "chargesCount": 3,
+        "description": "INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surfact. HOLD the ability key to curve the smoke in the direction of your crosshair.",
+        "video": "jett/abilities/Jett_C.mp4",
+        "cost": 100,
+        "keybind": "C"
+      },
+      {
+        "key": "updraft",
+        "name": "Updraft",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "INSTANTLY propel Jett high into the air.",
+        "video": "jett/abilities/Jett_Q.mp4",
+        "cost": 100,
+        "keybind": "Q"
+      },
+      {
+        "key": "tailwind",
+        "name": "Tailwind",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "INSTANTLY propel Jett in the direction she is moving. If Jett is standing still she will propel forward.",
+        "video": "jett/abilities/Jett_E.mp4",
+        "cost": "Free, once per round. Refreshed on 2 kills.",
+        "keybind": "E"
+      },
+      {
+        "key": "bladestorm",
+        "name": "Blade Storm",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a set of highly accurate throwing knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target.",
+        "video": "jett/abilities/Jett_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "killjoy": {
+    "key": "killjoy",
+    "name": "Killjoy",
+    "Class": "Sentinel",
+    "images": {
+      "bg": null,
+      "cutout": "killjoy/killjoy-cutout-compressed.png",
+      "headshot": "killjoy/killjoy-headshot.png",
+      "matchtile": "matchtile/killjoy-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "nanoswarm",
+        "name": "Nano Swarm",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.",
+        "video": "killjoy/abilities/killjoy-nanoswarm.mp4",
+        "cost": 200,
+        "keybind": "C"
+      },
+      {
+        "key": "alarmbot",
+        "name": "Alarm Bot",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range. After reaching its target, the bot explodes, applying Vulernable. HOLD EQUIP to recall a deployed bot.",
+        "video": "killjoy/abilities/killjoy-alarmbot.mp4",
+        "cost": 200,
+        "keybind": "Q"
+      },
+      {
+        "key": "turret",
+        "name": "Turret",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD EQUIP to recall the deployed turret.",
+        "video": "killjoy/abilities/killjoy-turret.mp4",
+        "cost": "Free",
+        "keybind": "E"
+      },
+      {
+        "key": "lockdown",
+        "name": "Lockdown",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies.",
+        "video": "killjoy/abilities/killjoy-lockdown.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "omen": {
+    "key": "omen",
+    "name": "Omen",
+    "Class": "Controller",
+    "images": {
+      "bg": "omen/omen-blurred-bg.jpg",
+      "cutout": "omen/omen-cutout2-compressed.png",
+      "headshot": "omen/omen-concept-headshot.png",
+      "matchtile": "matchtile/omen-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "shroudedstep",
+        "name": "Shrouded Step",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.",
+        "video": "omen/abilities/Omen_C.mp4",
+        "cost": 100,
+        "keybind": "C"
+      },
+      {
+        "key": "paranoia",
+        "name": "Paranoia",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.",
+        "video": "omen/abilities/Omen_Q.mp4",
+        "cost": 200,
+        "keybind": "Q"
+      },
+      {
+        "key": "darkcover",
+        "name": "Dark Cover",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key while targeting to move the marker closer.",
+        "video": "omen/abilities/Omen_E.mp4",
+        "cost": "Free. 2 charges, 35s cooldown on charge refresh.",
+        "keybind": "E"
+      },
+      {
+        "key": "fromtheshadows",
+        "name": "From the Shadows",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.",
+        "video": "omen/abilities/Omen_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "phoenix": {
+    "key": "phoenix",
+    "name": "Phoenix",
+    "Class": "Duelist",
+    "images": {
+      "bg": "phoenix/phoenix-blurred-bg.jpg",
+      "cutout": "phoenix/phoenix-cutout-compressed.png",
+      "headshot": "phoenix/phoenix-concept-headshot.png",
+      "matchtile": "matchtile/phoenix-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "blaze",
+        "name": "Blaze",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.",
+        "video": "phoenix/abilities/Phoenix_C.mp4",
+        "cost": 200,
+        "keybind": "C"
+      },
+      {
+        "key": "curveball",
+        "name": "Curveball",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.",
+        "video": "phoenix/abilities/Phoenix_Q.mp4",
+        "cost": 200,
+        "keybind": "Q"
+      },
+      {
+        "key": "hothands",
+        "name": "Hot Hands",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.",
+        "video": "phoenix/abilities/Phoenix_E.mp4",
+        "cost": "Free, once per round. Refreshed on 2 kills.",
+        "keybind": "E"
+      },
+      {
+        "key": "runitback",
+        "name": "Run it Back",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "INSTANTLY place a marker at Phoenix's location. while this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.",
+        "video": "phoenix/abilities/Phoenix_X.mp4",
+        "cost": 6,
+        "keybind": "X"
+      }
+    ]
+  },
+  "raze": {
+    "key": "raze",
+    "name": "Raze",
+    "Class": "Duelist",
+    "images": {
+      "bg": "raze/raze-blurred-bg.jpg",
+      "cutout": "raze/raze-cutout-compressed.png",
+      "headshot": "raze/raze-concept-headshot.png",
+      "matchtile": "matchtile/raze-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "boombot",
+        "name": "Boom Bot",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in it frontal cone and chase them, exploding for heavy damage if it reaches them.",
+        "video": "raze/abilities/Raze_C.mp4",
+        "cost": 200,
+        "keybind": "C"
+      },
+      {
+        "key": "blastpack",
+        "name": "Blast Pack",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit.",
+        "video": "raze/abilities/Raze_Q.mp4",
+        "cost": 200,
+        "keybind": "Q"
+      },
+      {
+        "key": "paintshells",
+        "name": "Paint Shells",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.",
+        "video": "raze/abilities/Raze_E.mp4",
+        "cost": "1 Free per round. Recharge on 2 kills.",
+        "keybind": "E"
+      },
+      {
+        "key": "showstopper",
+        "name": "Showstopper",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a rocket launcher. FIRE shoots a rocket that does massive area damage on contact with anything.",
+        "video": "raze/abilities/Raze_X.mp4",
+        "cost": 6,
+        "keybind": "X"
+      }
+    ]
+  },
+  "reyna": {
+    "key": "reyna",
+    "name": "Reyna",
+    "Class": "Duelist",
+    "images": {
+      "bg": "reyna/reyna-blurred-bg.jpg",
+      "cutout": "reyna/reyna-cutout3-compressed.png",
+      "headshot": "reyna/reyna-concept-headshot2.png",
+      "matchtile": "matchtile/reyna-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "reyna_c",
+        "name": "Leer",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP an ethereal destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it.",
+        "video": "reyna/Reyna_C.mp4",
+        "cost": 200,
+        "keybind": "C"
+      },
+      {
+        "key": "reyna_q",
+        "name": "Devour",
+        "type": "Ability",
+        "chargesCount": "shared4_left",
+        "description": "Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds. INSTANTLY consume a nearby soul orb, rapidly healing for a short duration. Health gained through this skill exceeding 100 will decay over time. If EMPRESS is active, this skill will automatically cast and not consume the orb.",
+        "video": "reyna/Reyna_Q.mp4",
+        "cost": 100,
+        "keybind": "Q"
+      },
+      {
+        "key": "reyna_e",
+        "name": "Dismiss",
+        "type": "Ability",
+        "chargesCount": "shared4_right",
+        "description": "INSTANTLY consume a nearby soul orb, becoming intangible for a short duration. If EMPRESS is active, also become invisible.",
+        "video": "reyna/Reyna_E.mp4",
+        "cost": "Free",
+        "keybind": "E"
+      },
+      {
+        "key": "reyna_x",
+        "name": "Empress",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "INSTANTLY enter a frenzy, increasing firing speed, equip and reload speed dramatically. Scoring a kill renews the duration.",
+        "video": "reyna/Reyna_X.mp4",
+        "cost": 6,
+        "keybind": "X"
+      }
+    ]
+  },
+  "sage": {
+    "key": "sage",
+    "name": "Sage",
+    "Class": "Sentinel",
+    "images": {
+      "bg": "sage/sage-blurred-bg.jpg",
+      "cutout": "sage/sage-cutout-compressed.png",
+      "headshot": "sage/sage-concept-headshot.png",
+      "matchtile": "matchtile/sage-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "barrierorb",
+        "name": "Barrier Orb",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.",
+        "video": "sage/abilities/Sage_C.mp4",
+        "cost": 400,
+        "keybind": "C"
+      },
+      {
+        "key": "sloworb",
+        "name": "Slow Orb",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.",
+        "video": "sage/abilities/Sage_Q.mp4",
+        "cost": 100,
+        "keybind": "Q"
+      },
+      {
+        "key": "healingorb",
+        "name": "Healing Orb",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.",
+        "video": "sage/abilities/Sage_E_2.mp4",
+        "cost": "35s cooldown",
+        "keybind": "E"
+      },
+      {
+        "key": "resurrection",
+        "name": "Resurrection",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.",
+        "video": "sage/abilities/Sage_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "sova": {
+    "key": "sova",
+    "name": "Sova",
+    "Class": "Initiator",
+    "images": {
+      "bg": "sova/sova-blurred-bg.jpg",
+      "cutout": "sova/sova-cutout-compressed.png",
+      "headshot": "sova/sova-concept-headshot.png",
+      "matchtile": "matchtile/sova-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "owldrone",
+        "name": "Owl Drone",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.",
+        "video": "sova/abilities/Sova_C.mp4",
+        "cost": 300,
+        "keybind": "C"
+      },
+      {
+        "key": "shockbolt",
+        "name": "Shock Bolt",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of teh projectile. ALTERNATE FIRE to add up to two bounces to this arrow.",
+        "video": "sova/abilities/Sova_Q.mp4",
+        "cost": 100,
+        "keybind": "Q"
+      },
+      {
+        "key": "reconbolt",
+        "name": "Recon Bolt",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a bow with recon boly. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projective. ALTERNATE FIRE to add up to two bounces to this arrow.",
+        "video": "sova/abilities/Sova_E.mp4",
+        "cost": "35s cooldown",
+        "keybind": "E"
+      },
+      {
+        "key": "huntersfury",
+        "name": "Hunter’s Fury",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.",
+        "video": "sova/abilities/Sova_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  },
+  "viper": {
+    "key": "viper",
+    "name": "Viper",
+    "Class": "Controller",
+    "images": {
+      "bg": "viper/viper-blurred-bg3.jpg",
+      "cutout": "viper/viper-cutout-compressed.png",
+      "headshot": "viper/viper-concept-headshot.png",
+      "matchtile": "matchtile/viper-art-withBG.png"
+    },
+    "abilities": [
+      {
+        "key": "snakebite",
+        "name": "Snake Bite",
+        "type": "Ability",
+        "chargesCount": 2,
+        "description": "EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.",
+        "video": "viper/abilities/Viper_C.mp4",
+        "cost": 100,
+        "keybind": "C"
+      },
+      {
+        "key": "poisoncloud",
+        "name": "Poison Cloud",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUiP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED.",
+        "video": "viper/abilities/Viper_Q.mp4",
+        "cost": 200,
+        "keybind": "Q"
+      },
+      {
+        "key": "toxicscreen",
+        "name": "Toxic Screen",
+        "type": "Ability",
+        "chargesCount": 1,
+        "description": "EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once.",
+        "video": "viper/abilities/Viper_E.mp4",
+        "cost": "Placeable once per round.",
+        "keybind": "E"
+      },
+      {
+        "key": "viperspit",
+        "name": "Viper’s Pit",
+        "type": "Ultimate",
+        "chargesCount": 1,
+        "description": "EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it.",
+        "video": "viper/abilities/Viper_X.mp4",
+        "cost": 7,
+        "keybind": "X"
+      }
+    ]
+  }
+}
