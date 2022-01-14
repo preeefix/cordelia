@@ -1,3 +1,5 @@
+# This repository is no longer maintained and cordelia was succeeded by `crdnl/cordelia2`.
+
 # crdnl/cordelia
 
 Cordelia is a Discord bot that allows authenticating Discord users using Google's OAuth 2.0 provider.
